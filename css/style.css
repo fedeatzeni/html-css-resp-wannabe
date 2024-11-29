@@ -130,9 +130,48 @@ img {
 
 /* tablet */
 @media screen and (max-width: 768px) {
-    
+
     .container{
         width: 100%;
         margin: 0;
     }
 }
+
+/* mobile  */
+@media screen and (max-width: 480px) {
+
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .steps .col {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .why-us {
+        padding: 60px 0;
+        background-color: #222222;
+        margin: 0;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+}
+
+
